@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: '微软雅黑';
+}
+.box{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image:url(../image/bj.jpg) ;
+
+}
+
+.scene{
+	width: 1000px;
+	height: 600px;
+	position: absolute;
+	top:0;;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.pai{
+	width: 120px;
+	height: 168px;
+	border-radius:8px;
+	position: absolute;
+	top: 0;
+	left: 440px;
+	background-size: 100%;
+	box-shadow: 0 0 2px #888;
+	opacity: 0;
+}
+.scene .moveright,.scene .moveleft{
+	width:75px;
+	height: 40px;
+	position: absolute;
+	left: 480px;
+	top:490px;
+	line-height: 40px;
+	text-align: center;
+	z-index: 10;
+	cursor: pointer;
+}
+.scene .moveleft img{
+	height: 50px;
+	position: absolute;
+	top:7px;
+	left: 30px;
+}
+.scene .moveright img{
+	height: 50px;
+	position: absolute;
+	top:8px;
+	left: 38px;
+}
+.scene .moveleft{
+	 left: 400px;
+}
+.scene .newstart,.scene .peidui,.scene .gamerule{
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	top:30px;
+	left: -140px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	background-image: url(../image/button.png);
+	cursor: pointer;
+}
+.scene .peidui{
+	top:100px;
+}
+.scene .gamerule{
+	top:170px;
+}
+.scene .gamebox{
+	width: 120px;
+	height: 220px;
+	position: absolute;
+	top:220px;
+	left: -140px;
+	color: #fff;
+	font-size: 14px;
+
+}
+.scene .score, .scene .time{
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	top:30px;
+	right: -120px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-image: url(../image/button.png);
+	cursor: pointer;
+}
+.scene .score{
+	right: 20px;
+}
